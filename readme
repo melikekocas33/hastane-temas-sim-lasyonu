@@ -1,0 +1,39 @@
+# Hospital Contact Simulation
+
+Bu proje, hastane ortamında doktor, hemşire ve hastalar arasındaki temasları modelleyen bir Python simülasyonudur. Simülasyonda kişiler, bulundukları bölgeler, temas süreleri ve enfekte kişi ile temas durumları takip edilmektedir.
+
+## Proje Amacı
+
+Hastane gibi yoğun insan etkileşiminin olduğu ortamlarda temas zincirlerinin nasıl oluştuğunu ve enfekte bir kişiyle temas eden bireylerin nasıl belirlenebileceğini simüle etmek amaçlanmıştır.
+
+## Özellikler
+
+- Doktor, hemşire ve hasta rollerinin tanımlanması
+- Hastane bölgelerinin oluşturulması
+- Kişilerin rastgele bölgelere yerleştirilmesi
+- Kişiler arası temasların kaydedilmesi
+- Enfekte kişiyle temas eden bireylerin belirlenmesi
+- Temas sürelerinin takip edilmesi
+- Konsol çıktısı ile temas listelerinin gösterilmesi
+
+## Kullanılan Teknolojiler
+
+- Python 3
+- Sözlük ve liste veri yapıları
+- Rastgele konum üretimi
+- Temas takip algoritması
+- Simülasyon mantığı
+
+## Dosyalar
+
+| Dosya | Açıklama |
+|---|---|
+| `hospital_contact_simulation.py` | Hastane temas ve enfeksiyon yayılım simülasyonu |
+| `README.md` | Proje açıklama dosyası |
+
+## Çalıştırma
+
+Terminal üzerinden proje klasörüne girin:
+
+```bash
+cd hospital-contact-simulation
